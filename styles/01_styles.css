@@ -1,8 +1,22 @@
-html{
-    background-color: #B3E2A7
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-h1{
-    color:blueviolet;
-    font-size: 200pt;
+.container {
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    /*default set as row*/
+}
+
+.item {
+    background-color: chocolate;
+    color: antiquewhite;
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px;
 }
